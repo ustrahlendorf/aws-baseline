@@ -29,7 +29,7 @@ By default the `MainAccount` parameter in those StackSets will be set to the Mai
 
 ## Configuring the Regions
 
-The configuration files for each Stack and StackSet have us-east-1 hardcoded as the region to deploy into. This is done so that no individual stack can accidentally be deployed into the wrong region. If you do not want your Stacks or StackSets to be deployed into us-east-1 please change those values accordingly in each configuration file. While this is a manual effort and might be more automated in the future it removes some future problems with inconsistent configuration.
+The configuration files for each Stack and StackSet have eu-central-1 hardcoded as the region to deploy into. This is done so that no individual stack can accidentally be deployed into the wrong region. If you do not want your Stacks or StackSets to be deployed into eu-central-1 please change those values accordingly in each configuration file. While this is a manual effort and might be more automated in the future it removes some future problems with inconsistent configuration.
 
 ## Excluding Stacks or StackSets
 

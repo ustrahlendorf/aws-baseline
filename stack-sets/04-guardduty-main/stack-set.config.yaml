@@ -5,7 +5,7 @@ excluded-regions:
   - eu-north-1
 organization-variables: true
 max-concurrent-percentage: 100
-region: us-east-1
+region: eu-central-1
 tags:
   ValidateMainAccount: true
   ValidateAllRegions: true
