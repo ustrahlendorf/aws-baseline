@@ -5,7 +5,7 @@ all-subaccounts: true
 excluded-regions:
   - eu-north-1
 main-account-parameter: true
-region: us-east-1
+region: eu-central-1
 tags:
   ValidateAllSubAccounts: true
   ValidateAllRegions: true

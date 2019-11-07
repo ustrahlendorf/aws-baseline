@@ -50,7 +50,7 @@ If you want to set specific CIDRs per Account/Region you can set the `AccountCID
 ```yaml
   AccountCIDR:
     123456789:
-      "us-east-1": 11.0.0.0/16
+      "eu-central-1": 11.0.0.0/16
 ```
 
 This is especially helpful if you want to create different CIDRs for peered VPCs.
@@ -61,7 +61,7 @@ By default no Nat Gateway is deployed so your instances can't access the public 
 
 ## Interface and Gateway Endpoints
 
-The `GatewayEndpoints` and `InterfaceEndpoints` variables allow you to create Endpoints for various AWS Services. You just need to add the Service name and they will be set up for you. Don't add the whole name, just the service name, e.g. `logs` instead of `com.amazonaws.us-east-1.logs`
+The `GatewayEndpoints` and `InterfaceEndpoints` variables allow you to create Endpoints for various AWS Services. You just need to add the Service name and they will be set up for you. Don't add the whole name, just the service name, e.g. `logs` instead of `com.amazonaws.eu-central-1.logs`
 
 The following example adds endpints used for running ECS Fargate and S3 workloads.:
 
