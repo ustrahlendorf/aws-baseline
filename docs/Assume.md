@@ -118,18 +118,18 @@ To set up your profiles for cross account access with the AWS CLI add the follow
 
 ```##### COMPANY
 [profile company]
-region=eu-central-1
+region=eu-west-1
 
 [profile company-dev]
 role_arn = arn:aws:iam::1234567891011:role/AssumableAdminRole
 source_profile = company
-region = eu-central-1
+region = eu-west-1
 mfa_serial = arn:aws:iam::1011987654321:mfa/YOUR_USER_NAME
 
 [profile company-prod]
 role_arn = arn:aws:iam::8573615396827:role/AssumableAdminRole
 source_profile = company
-region = eu-central-1
+region = eu-west-1
 mfa_serial = arn:aws:iam::1011987654321:mfa/YOUR_USER_NAME
 ```
 

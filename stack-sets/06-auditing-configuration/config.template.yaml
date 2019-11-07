@@ -16,7 +16,7 @@ Parameters:
   GlobalConfigRegion:
     Description: Region To use for Global AWS Config recording
     Type: String
-    Default: eu-central-1
+    Default: eu-west-1
 Conditions:
   IsGlobalRegion: !Equals [!Ref 'AWS::Region', !Ref GlobalConfigRegion]
   IsGlobalMainAccountRegion:

@@ -3,4 +3,4 @@ capabilities:
   - CAPABILITY_NAMED_IAM
 organization-variables: true
 create-missing: true
-region: eu-central-1
+region: eu-west-1

@@ -37,7 +37,7 @@ tags:
   ValidateExcludedAccounts: 987654321
 
   ValidateAllRegions: true
-  ValidateRegions: eu-central-1/eu-west-1
+  ValidateRegions: eu-west-1/eu-west-1
   ValidateExcludedRegions: eu-west-1/us-west-1
 ```
 
