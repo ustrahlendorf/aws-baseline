@@ -2,7 +2,9 @@ stack-set: assumable-roles
 capabilities:
   - CAPABILITY_NAMED_IAM
 main-account-parameter: true
-all-subaccounts: true
+# all-subaccounts: true
+accounts:
+  - 776438119252
 max-concurrent-percentage: 100
 regions:
   - eu-west-1

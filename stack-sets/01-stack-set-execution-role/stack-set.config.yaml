@@ -4,7 +4,9 @@ capabilities:
   - CAPABILITY_NAMED_IAM
 main-account-parameter: true
 max-concurrent-percentage: 100
-all-subaccounts: true
+# all-subaccounts: true
+accounts:
+  - 776438119252
 regions:
   - eu-west-1
 region: eu-west-1

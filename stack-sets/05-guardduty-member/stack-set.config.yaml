@@ -1,6 +1,8 @@
 stack-set: guardduty-member
 max-concurrent-percentage: 100
-all-subaccounts: true
+# all-subaccounts: true
+accounts:
+  - 776438119252
 #all-regions: true
 excluded-regions:
   - eu-north-1
