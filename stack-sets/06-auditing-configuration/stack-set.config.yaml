@@ -2,6 +2,9 @@ stack-set: auditing-configuration
 capabilities:
   - CAPABILITY_IAM
 all-accounts: false
+accounts:
+  - 253922918127
+  - 776438119252
 #all-regions: true
 excluded-regions:
   - eu-north-1

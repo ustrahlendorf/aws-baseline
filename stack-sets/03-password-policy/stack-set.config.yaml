@@ -1,6 +1,9 @@
 stack: password-policy
 stack-set: password-policy
 all-accounts: false
+accounts:
+  - 253922918127
+  - 776438119252
 max-concurrent-percentage: 100
 regions:
   - eu-west-1
