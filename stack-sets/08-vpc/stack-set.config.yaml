@@ -20,7 +20,9 @@ vars:
 #      "eu-west-1": 11.0.0.0/16
 parameters:
   PrivateNatGateway: none
-all-subaccounts: true
+# all-subaccounts: true
+accounts:
+  - 776438119252
 regions:
   - eu-west-1
 max-concurrent-percentage: 100
