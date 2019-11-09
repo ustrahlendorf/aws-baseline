@@ -1,7 +1,7 @@
 stack-set: auditing-configuration
 capabilities:
   - CAPABILITY_IAM
-all-accounts: true
+all-accounts: false
 #all-regions: true
 excluded-regions:
   - eu-north-1
